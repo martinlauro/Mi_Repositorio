@@ -1,0 +1,83 @@
+$negroTitle:black;
+$hColor:white;
+
+body{
+    color: $negroTitle;
+}
+
+
+h2 , h3, p , .serv , .name {
+    color: $hColor;
+}
+
+h1 {
+    color:$negroTitle ;
+}
+
+h3:hover {
+    color: rgb(151, 152, 168);
+
+}
+
+ul li {
+    color:$hColor
+}
+
+h1 {
+    animation-duration: 10s;
+    animation-name: aparecer;
+  }
+  
+  strong {
+    color: $hColor;
+  
+  }
+  
+.na {
+    color:$negroTitle;
+  }
+  
+  .hihi {
+    color: $negroTitle;
+  }
+  .name {
+    color:$hColor;
+  }
+  
+
+
+
+
+
+  @keyframes aparecer {
+    0% {
+        opacity: 0;
+    }
+  
+    100% {
+        opacity: 1;
+    }
+  }
+  
+  /* Mobile Styles  */
+  @media only screen and (max-width: 400px) {
+    body {
+        background-color:$negroTitle;
+        color:$hColor;
+    }
+  }
+  
+  /* Tablet Style */
+  @media only screen and (min-width:401px) and (max-width:768px) {
+    body {
+        background-color: $negroTitle;
+  
+    }
+  
+  }
+  
+  @media only screen and (min-width:769px) {
+    body {
+        background-color:$negroTitle;
+    }
+  }

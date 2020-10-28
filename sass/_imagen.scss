@@ -1,0 +1,13 @@
+.carousel-inner img {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.casousel-item {
+    transition: transform -0.6s ease-in-out, -webkit-transform 0.8s ease-in-out;
+    text-align: center;
+
+}
